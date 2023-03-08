@@ -67,7 +67,7 @@ A simple application to show the names and positions of leading competitors in a
 
 - **GitHub Pages:**
 
-- https://shafiuyushawu.github.io/Todo-List/dist/
+- [N/A]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
