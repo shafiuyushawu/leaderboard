@@ -59,7 +59,7 @@ A simple application to show the names and positions of leading competitors in a
 <!-- Features -->
 
 ### Key Feature <a name="key-features"></a>
- - Displays list of todos and indicates weather complete or not with line strike through
+ - Displays list of names and positions of leading competitors.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
