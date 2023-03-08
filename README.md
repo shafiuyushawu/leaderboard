@@ -94,7 +94,7 @@ git clone https://github.com/shafiuyushawu/leaderboard
 ```
 2. To access cloned directory run:
 ```bash
-cd Todo List
+cd leaderboard
 ```
 
 
@@ -162,8 +162,8 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Implement input for users to add todso.
-- Create a function to receive user interaction to strike through todos.
+- Implement functionality for user to enter names.
+- Create functionality for displaying names and scores entered by users.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
