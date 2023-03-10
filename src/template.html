@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html data-theme="light">
 
 <head>
     <meta charset="utf-8">
@@ -12,37 +12,27 @@
 
 <body class="">
     <h1 class=" ml-[500px] mb-10 text-4xl font-bold">Leaderboard</h1>
-    <div class="flex gap-16 justify-center">
+    <div class="flex justify-center gap-16">
         <div class="">
-            <div class="flex gap-5 justify-between ">
+            <div class="flex justify-between gap-5 ">
                 <h2 class="text-2xl font-bold">Recent Scores</h2>
-                <button class="btn btn-outline btn-sm rounded-none border-2 h-[20px]">Refresh</button>
+                <button type="button" id="refresh"
+                    class="btn btn-outline btn-sm rounded-none border-2 h-[20px]">Refresh</button>
             </div>
-            <ul class="border-2 border-black  w-[500px] mt-10">
-                <li class="px-5 bg-slate-300">Name : 20</li>
-                <li class="px-5">Name : 30</li>
-                <li class="px-5  bg-slate-300">Name : 40</li>
-                <li class="px-5">Name : 340</li>
-                <li class="px-5  bg-slate-300">Name : 253</li>
-                <li class="px-5">Name : 340</li>
-                <li class="px-5  bg-slate-300">Name : 253</li>
-                <li class="px-5">Name : 340</li>
-                <li class="px-5  bg-slate-300">Name : 253</li>
-                <li class="px-5">Name : 340</li>
-                <li class="px-5  bg-slate-300">Name : 253</li>
-            </ul>
+            <ul id="ul" class="border-2 border-black  w-[500px] mt-10"></ul>
         </div>
         <div class="">
             <h2 class="text-2xl font-bold">Add your score</h2>
-            <form class="flex flex-col mt-10">
-                <input type="text" placeholder="Your name"
-                    class="border-2 border-black placeholder:text-black hover:outline-none placeholder:p-2 p-1 px-2"
+            <form id="form" class="flex flex-col mt-10">
+                <input type="text" placeholder="Your name" id="name"
+                    class="p-1 px-2 border-2 border-black placeholder:text-black hover:outline-none placeholder:p-2"
                     required>
                 <br>
-                <input type="number" placeholder="Your score"
-                    class="border-2 border-black placeholder:text-black hover:outline-none placeholder:p-2 p-1 px-2"
+                <input type="number" placeholder="Your score" id="score"
+                    class="p-1 px-2 border-2 border-black placeholder:text-black hover:outline-none placeholder:p-2"
                     required><br>
-                <button type="submit" class="btn btn-outline btn-sm w-20 rounded-none border-2 p-2">Submit</button>
+                <button id="submit" type="submit"
+                    class="w-20 p-2 border-2 rounded-none btn btn-outline btn-sm">Submit</button>
             </form>
         </div>
     </div>
