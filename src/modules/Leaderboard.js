@@ -40,6 +40,7 @@ class Leaderboard {
     this.ul.innerHTML = '';
     scores.forEach((score) => {
       const li = document.createElement('li');
+      li.className = 'px-2 py-1 text-2xl text-white even:bg-slate-200 even:text-black';
       li.textContent = `Name: ${score.user} Score: ${score.score}`;
       this.ul.appendChild(li);
     });

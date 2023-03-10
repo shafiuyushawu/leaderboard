@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html data-theme="light">
+<html data-theme="corporate">
 
 <head>
     <meta charset="utf-8">
@@ -8,32 +8,37 @@
     <script defer src="/public/bundle.js"></script>
     <script defer src="/public/bundle.js"></script>
     <script defer src="/public/bundle.js"></script>
+    <script defer src="/public/bundle.js"></script>
+    <script defer src="/public/bundle.js"></script>
+    <script defer src="/public/bundle.js"></script>
 </head>
 
-<body class="">
-    <h1 class=" ml-[500px] mb-10 text-4xl font-bold">Leaderboard</h1>
-    <div class="flex justify-center gap-16">
-        <div class="">
-            <div class="flex justify-between gap-5 ">
-                <h2 class="text-2xl font-bold">Recent Scores</h2>
-                <button type="button" id="refresh"
-                    class="btn btn-outline btn-sm rounded-none border-2 h-[20px]">Refresh</button>
+<body class="pt-5 text-xl mx-28" data-theme="dark">
+    <div class="p-10 shadow-2xl" data-theme="dark">
+        <h1 class=" ml-[280px] mb-10 text-4xl font-bold">Leaderboard</h1>
+        <div class="flex justify-center gap-16 ">
+            <div class="">
+                <div class="flex justify-between gap-5 ">
+                    <h2 class="text-2xl font-bold">Recent Scores</h2>
+                    <button type="button" id="refresh"
+                        class="btn btn-outline  btn-accent btn-sm rounded-none shadow-lg border-2 h-[20px]">Refresh</button>
+                </div>
+                <ul id="ul" class=" shadow-2xl w-[500px] mt-10"></ul>
             </div>
-            <ul id="ul" class="border-2 border-black  w-[500px] mt-10"></ul>
-        </div>
-        <div class="">
-            <h2 class="text-2xl font-bold">Add your score</h2>
-            <form id="form" class="flex flex-col mt-10">
-                <input type="text" placeholder="Your name" id="name"
-                    class="p-1 px-2 border-2 border-black placeholder:text-black hover:outline-none placeholder:p-2"
-                    required>
-                <br>
-                <input type="number" placeholder="Your score" id="score"
-                    class="p-1 px-2 border-2 border-black placeholder:text-black hover:outline-none placeholder:p-2"
-                    required><br>
-                <button id="submit" type="submit"
-                    class="w-20 p-2 border-2 rounded-none btn btn-outline btn-sm">Submit</button>
-            </form>
+            <div class="">
+                <h2 class="text-2xl font-bold">Add your score</h2>
+                <form id="form" class="flex flex-col mt-10">
+                    <input type="text" placeholder="Your name" id="name"
+                        class="p-1 px-2 bg-slate-100 placeholder:text-black hover:outline-none placeholder:p-2"
+                        required>
+                    <br>
+                    <input type="number" placeholder="Your score" id="score"
+                        class="p-1 px-2 bg-slate-100 placeholder:text-black hover:outline-none placeholder:p-2"
+                        required><br>
+                    <button id="submit" type="submit"
+                        class="p-2 text-black border-2 rounded-none shadow bg-slate-200 btn-primary btn btn-sm shadow-primary">Submit</button>
+                </form>
+            </div>
         </div>
     </div>
 </body>
