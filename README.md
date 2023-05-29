@@ -27,7 +27,7 @@
 
 A simple application to show the names and positions of leading competitors in a competions, most especially a golf tournament.
 
-## 🛠 Built With 
+## 🛠 Built With
 
 - HTML
 - JS
@@ -59,18 +59,15 @@ A simple application to show the names and positions of leading competitors in a
 <!-- Features -->
 
 ### Key Feature <a name="key-features"></a>
- - Displays list of names and positions of leading competitors.
+
+- Displays list of names and positions of leading competitors.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- **GitHub Pages:**
-
-- [N/A]()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
- 
+- [Leaderboard 🚀](https://leaderboard-rzy5.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -85,19 +82,19 @@ To get the content of this project locally you need to run the following command
 - IDE (code editor) like: VScode, Sublime, etc
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
-
 ### Setup
 
 1. Download the **Zip** file or clone the repo with:
+
 ```bash
 git clone https://github.com/shafiuyushawu/leaderboard
 ```
+
 2. To access cloned directory run:
+
 ```bash
 cd leaderboard
 ```
-
-
 
 ### Install
 
@@ -107,24 +104,23 @@ cd leaderboard
 npm install
 ```
 
-
-
 ### Usage
 
-To run the project, execute the following command: 
+To run the project, execute the following command:
 
-- Excute below command in the terminal to serve live 
+- Excute below command in the terminal to serve live
+
 ```bash
 npm run dev
 ```
-
 
 ## Run Test for Linters
 
 For tracking linter errors locally you need to follow these steps:
 
 1. For tracking linter errors in HTML files run:
-```bash 
+
+```bash
 npx hint .
 ```
 
@@ -145,7 +141,6 @@ npx eslint .
 You can deploy this project using:
 
 - N/A
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHOR -->
